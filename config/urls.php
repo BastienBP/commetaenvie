@@ -5,6 +5,10 @@ $urls = [
 	'#^admin/login$#' => 'AdminController/login',
 	'#^admin/home$#' => 'AdminController/home',
 
+	'#^user/read$#' => 'UserController/read',
+	'#^user/add$#' => 'UserController/add',
+
+	
 	'#^categorie/read$#' => 'CategorieController/read',
 	'#^categorie/details/[0-9]+$#' => 'CategorieController/details',
 	'#^categorie/add$#' => 'CategorieController/add',

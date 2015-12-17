@@ -15,7 +15,7 @@ define('ROOT', str_replace('index.php','',$_SERVER['SCRIPT_FILENAME']));
 */
 define('DB_NAME','forumsw'); # Nom BDD
 define('DB_LOGIN','root'); # Login BDD
-define('DB_PASSWORD',''); # mot de passe BDD
+define('DB_PASSWORD','root'); # mot de passe BDD
 define('DB_ADDRESS','localhost'); # Adresse
 define('DB_CHARSET','utf8'); # charset
 /*
